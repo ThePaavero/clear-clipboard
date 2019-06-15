@@ -11,6 +11,8 @@ When the shortcut is pressed:
 ## Installation
 `git clone https://github.com/ThePaavero/clear-clipboard.git`
 
+`cd clear-clipboard`
+
 `npm i`
 
 ## Starting the application
