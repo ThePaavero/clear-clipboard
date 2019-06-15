@@ -1,7 +1,7 @@
 const {app, globalShortcut} = require('electron')
 const clipboardy = require('clipboardy')
-const path = require('path')
 const notifier = require('node-notifier')
+const path = require('path')
 
 const KEY_COMBINATION = 'CommandOrControl+shift+c'
 
