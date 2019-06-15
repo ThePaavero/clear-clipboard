@@ -7,10 +7,12 @@ const KEY_COMBINATION = 'CommandOrControl+shift+c'
 
 app.on('ready', () => {
 
+  const icon = path.join(__dirname, 'icon.jpg')
+
   notifier.notify({
     title: 'Clipboard clearer',
     message: `I'm running in the background. Press ${KEY_COMBINATION} to clear your clipboard.`,
-    icon: path.join(__dirname, 'icon.jpg'),
+    icon,
     sound: false,
     wait: false,
   })
@@ -21,7 +23,7 @@ app.on('ready', () => {
     notifier.notify({
       title: 'Clipboard clearer',
       message: `Clipboard cleared`,
-      icon: path.join(__dirname, 'icon.jpg'),
+      icon,
       sound: false,
       wait: false,
     })
